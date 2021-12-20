@@ -6,8 +6,10 @@ body {
     margin: 0;
     font-family: 'Rubik', sans-serif;
     line-height: 1.5px;
-
-}
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    }
 
 * {
     box-sizing: border-box;
@@ -21,7 +23,8 @@ body {
     height: 80px;
     display: flex;
     border-radius: 20px;
-    position: static;
+    position: absolute;
+    left: 359px;
 }
 .nav {
     display: flex;
@@ -53,7 +56,7 @@ body {
     text-decoration: underline;
 }
 .container-foto {
-    position: fixed;
+    position: absolute;
     left: 359px;
     top: 130px;
     margin: 0 auto;
@@ -72,7 +75,7 @@ body {
 }
 
 .name {
-    position: fixed;
+    position: absolute;
     left: 359px;
     top: 390px;
     margin: 0 auto;
@@ -85,9 +88,9 @@ body {
 }
 
 .container-contact{
-    position: fixed;
+    position: absolute;
     left: 359px;
-    top: 450px;
+    top: 510px;
     background-color: white;
     box-shadow: 0 5px 10px;
     width: 250px;
@@ -117,4 +120,252 @@ body {
 .contact-link {
     color: black;
     
+}
+
+.contact-link:hover {
+    color: wheat;
+}
+.contacts {
+    position: absolute;
+    left: 359px;
+    top: 450px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 5px 10px;
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.scills {
+    position: absolute;
+    left: 1259px;
+    top: 330px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 5px 10px;
+    width: 250px;
+    height: 40px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.container-scills{
+    position: absolute;
+    left: 1259px;
+    top: 390px;
+    background-color: white;
+    box-shadow: 0 5px 10px;
+    width: 250px;
+    border-radius: 20px;
+    text-align: left;
+    
+}
+
+.scills-list {
+    margin: 10px 0;
+    padding: 5px 10px;
+    list-style: none;
+}
+
+.scils-item {
+    font-size: 20px;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.about-me {
+    position: absolute;
+    left: 640px;
+    top: 130px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 5px 5px;
+    width: 250px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.container-about-me {
+    position: absolute;
+    left: 710px;
+    top: 190px;
+    margin: 5px auto;
+    background-color: white;
+    box-shadow: 0 5px 5px;
+    width: 840px;
+    border-radius: 20px;
+    text-align: start;
+    
+}
+.text {
+    margin: 5px 10px;
+    font-size: 21px;
+    line-height: 30px;
+}
+
+.education {
+    position: absolute;
+    left: 740px;
+    top: 330px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 5px 5px;
+    width: 250px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.container-education {
+    position: absolute;
+    left: 740px;
+    top: 390px;
+    margin: 5px auto;
+    background-color: white;
+    box-shadow: 0 5px 5px;
+    width: 250px;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.education-list {
+    margin: 10px 0;
+    padding: 5px 10px;
+    list-style:none;
+}
+
+.education-item {
+    font-size: 20px;
+    margin-bottom: 13px;
+    padding: 5px;
+}
+
+.code {
+    position: absolute;
+    left: 740px;
+    top: 530px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 5px 5px;
+    width: 250px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.container-code {
+    position: absolute;
+    left: 740px;
+    top: 580px;
+    margin: 5px auto;
+    background-color: white;
+    box-shadow: 0 5px 5px;
+    width: 250px;
+    border-radius: 20px;
+    text-align: start;
+    padding: 10px;
+    }
+.code-example {
+    font-size: 16px;
+    padding: 10px;
+    line-height: 20px;
+    text-align: left;
+}
+
+.programming {
+    position: absolute;
+    left: 1259px;
+    top: 530px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 5px 10px;
+    width: 250px;    
+    border-radius: 20px;
+    text-align: center;
+}
+
+.container-experiens {
+    position: absolute;
+    left: 1259px;
+    top: 580px;
+    background-color: white;
+    box-shadow: 0 5px 10px;
+    width: 250px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.experience-list {
+    margin: 10px 0;
+    padding: 5px 10px;
+    list-style:none;
+}
+
+.experiens-item {
+    font-size: 20px;
+    margin-bottom: 13px;
+    margin-top: 13px;
+    padding: 20px;
+}
+
+.experiens-link {
+    color: black;
+}
+
+.experiens-link:hover {
+    color: wheat;
+}
+
+.eng {
+    position: absolute;
+    left: 1259px;
+    top: 750px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 5px 10px;
+    width: 250px;    
+    border-radius: 20px;
+    text-align: center;
+}
+
+.foo {
+    display: flex;
+}
+
+.container-foo {
+    background-color: white;
+    margin: 30px auto;
+    max-width: 1300px;
+    box-shadow: 0 5px 10px;
+    width: 1200px;
+    height: 80px;
+    display: flex;
+    border-radius: 20px;
+    position: absolute;
+    left: 359px;
+    top: 800px;
+}
+
+.foo-list {
+    padding: 0 0 0 200px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.foo-item {
+    padding: 100px;
+    font-size: 22px;
+    align-items: center;
+}
+
+.github {
+    width: 45px;
+    height: 45px;
+}
+
+.RSS {
+    width: 90px;
+    height: 60px;
 }
